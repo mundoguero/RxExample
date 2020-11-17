@@ -15,7 +15,7 @@ class ViewController: UIViewController, UITableViewDataSource {
     @IBOutlet weak var searchBar: UISearchBar!
     
     var shownPlayers = [String]()
-    let allPlayers = ["Cristiano Ronaldo", "Neymar Junior", "Niedson Junior", "Messi", "Zico", "Pelé", "Vampeta"] // Mocked
+    let allPlayers = ["Cristiano Ronaldo", "Luca Toni", "Ciro Immobile", "Messi", "Zico", "Pelé", "Romelu Lukaku", "Francesco Caputo","João Pedro", "Luis Muriel", "Duván Zapata", "Edin Dzeko", "Andrea Belotti", "Josip Ilicic" ] // Mocked
     let disposeBag = DisposeBag()
     override func viewDidLoad() {
         super.viewDidLoad()
